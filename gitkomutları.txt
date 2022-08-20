@@ -1,0 +1,39 @@
+# GIT-COMMANDS-CHEAT-SHEET
+git commands with my own notes
+
+
+
+GIT TEMELLERİ
+
+COMMIT: Git'e eklediğimiz dosyaları kalıcı olarak Git veri tabanına işlemek.
+BRANCH: Dallanma. Branch oluşturmak kullanıcıya, çalıştığı projenin farklı versiyonlarına erişmesini sağlar. Kullanıcı projesine bie yenilik eklemek istediğinde, yaptığı değişiklik projenin çalışmasını olumsuz etkileyebilir. Bu gibi durumlarda projemizin o anki halini bozmamak için branch kullanırız.
+
+ÇALIŞMA KLASORU>>git add>>INDEX-STAGING>>git commit>>LOCAL REPOSITORY
+
+GIT KOMUTLARI
+
+git status: Git'in güncel durumunu gösterir.
+git init: Bulunduğunuz dizini bir GIT repositorysi haline getirir ve .git adında bir dizin oluşturur.
+git add: Repoya bir dosya eklemek için kullanılır.
+git commit: Dosyayı sürüm geçmişinde kalıcı olarak kaydeder ve anlık görüntüler.
+git log: Commit işlemleri ile ilgili özet bilgileri görmek için kullanılır.
+git add .: Tüm dizinleri eklemek için kullanılır.
+git ignore: Git reposundan hariç tutulacak dosyaların listesinin bulunduğu repo ana dizinde bulunan bir ayar dosyasıdır.
+git commit -m "eklenecek mesaj": Değişikliğin ne olduğunu anlamak için yazılan kısa mesaj.
+git branch: Oluşturulan branchleri görmemizi sağlar.
+git branch -d: Dal (branch) silmemizi sağlar.
+git switch: Belirtilen branch ile yer değişikliği yapılır. 
+git merge: Başka bir branchdeki değişiklikleri üzerinde çalıştığımız kendi branchimize entegre etmek için kullanırız.
+git stash:  Değişiklikleri commitlemeden yerel depoya kaydetmeyi sağlayan bir araçtır.
+git stash pop: Listenin en üstünde yer alan değişiklik geri yüklenir ve bu değişiklik listeden silinir.
+git stash list: Aktif branchinizde geçici olarak kayıt altına aldığımız değişikliklerin listelenmesini sağlayabiliriz.
+git restore: Yapılan değişiklikleri geri almak için kullanılır.
+git checkout: Bir daldan diğerine geçmek için kullanılır.
+git revert:  Commit ettiğimiz herhangi bir değişikliği geri almak için kullanılır. Bu komut ile commit işleminizin kendisi veya bilgileri silinmez sadece commit işleminizdeki değişiklik geri alınır. Örneğin eklediğiniz bir satırı kaldırmak isterseniz git revert komutu ile bunu yapabilirsiniz.
+git reset: Değişiklikleri geri almak için kullanabileceğimiz diğer bir komut ise git reset komutu. Bu komut da herhangi bir bilginizi silmeden işlemi gerçekleştirir, ancak git revert komutundan farklı olarak otomatik yeni bir commit üretmeden değişikliğinizi geri almamızı sağlar.
+git diff: İki versiyon arasındaki farkları görmek için kullanılır. (difference)
+git rebose: Git'de merge ve rebase komutları benzer işlevleri yerine getirmek için kullanılıyoruz. Her iki komut da bir daldaki değişiklikleri başka bir dala birleştirmek için kullanılır.
+git remote: Yerel depomuzu uzak sunucuya bağlamak için kullanılırız.
+git fetch: Yerel depoyu uzaktaki deponun içeriğine güncellemek için kullanırız.
+git pull: Uzaktaki deponun değişikliklerini yerel depoya getirmek için kullanırız.
+git clone: Clone komutuyla local(yerel)'de ya da uzak bir sunucuda(server) yer alan bir repository(depo)'nin çalışan kopyasını bulunduğumuz dizine kopyalarız.
