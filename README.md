@@ -1,2 +1,9 @@
 # GIT-COMMANDS-CHEAT-SHEET
-git commands with my own notes
+
+
+GIT NEDİR? 
+Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir.
+
+
+
+
